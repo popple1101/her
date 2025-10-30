@@ -1,0 +1,8 @@
+name = "rainbow-auth"
+main = "src/index.js"
+compatibility_date = "2024-11-12"
+workers_dev = true
+
+# 환경변수는 .dev.vars 로컬, 대외비는 Dashboard/Secrets 사용
+[vars]
+# 여기에 기본값은 넣지 말고 .dev.vars 를 사용하세요
