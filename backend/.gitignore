@@ -1,0 +1,52 @@
+# ──────────────────────────────
+# 기본 Node & Workers 환경
+# ──────────────────────────────
+node_modules/
+dist/
+build/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+
+# ──────────────────────────────
+# 환경 변수 / 비밀키
+# ──────────────────────────────
+.env
+.env.*
+.dev.vars
+*.local
+*.secret
+secrets/
+wrangler.toml.backup
+
+# ──────────────────────────────
+# 로그 및 임시 파일
+# ──────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.tgz
+
+# ──────────────────────────────
+# 테스트 / 임시
+# ──────────────────────────────
+coverage/
+tmp/
+temp/
+__tests__/
+__mocks__/
+*.spec.js
+*.test.js
+
+# ──────────────────────────────
+# OS별 불필요 파일
+# ──────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
