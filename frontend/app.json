@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "LUVAR",
+    "slug": "frontend",
+    "scheme": "luvar",
+    "android": { "package": "com.luvar.app", "edgeToEdgeEnabled": true },
+    "ios": { "bundleIdentifier": "com.luvar.app" }
+  }
+}
